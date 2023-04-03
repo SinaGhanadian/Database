@@ -91,7 +91,7 @@ INSERT INTO ADDRESS (ADDRESS_ID, HOUSENUMBER, STREETNAME, POSTALCODE, CITY, PROV
 VALUES (31, 8, 'Windermere Rd', 'N9J 2W3', 'Amherstburg', 'Ontario');
 
 
-/* Populating the table with contact information for patients, hospitals, pharmacies and employees */
+/* Populating the table with contact information for patients */
 
 INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
 VALUES (1, 5195551234, 'johndoe@gmail.com');
@@ -167,4 +167,101 @@ VALUES (24, 5195558765, 'nicholaswright@yahoo.com');
 
 INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
 VALUES (25, 5195556789, 'realperson@yahoo.com');
+
+/* Populating the table with contact information for doctors and nurses*/
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(26, 2269832355, 'drkovac@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(27, 5195550123, 'drchen@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(28, 2265554567, 'drgreen@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(29, 2269832355, 'drpeterson@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(30, 5195555678, 'drrousseau@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(31, 2265559012, 'drphil@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(32, 5195553456, 'drmcgibbons@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(33, 2265557890, 'drkumar@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(34, 5195551234, 'drmckenzie@greenviewmedical.com');
+
+/* Populating the table with contact information for nurses*/
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (35, 5195550123, 'smith@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (36, 2265554567, 'jones@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (37, 5195557890, 'williams@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (38, 2265551234, 'brown@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (39, 5195555678, 'garcia@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (40, 2265559012, 'miller@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (41, 5195553456, 'davis@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (42, 2265557890, 'rodriguez@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (43, 5195551234, 'martinez@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (44, 2265555678, 'hernandez@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (45, 5195559012, 'lopez@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (46, 2265553456, 'gonzalez@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (47, 5195556789, 'white@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (48, 2265550123, 'lee@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS) 
+VALUES (49, 5195554567, 'wilson@greenviewmedical.com');
+
+/* Populating the table with contact information for hospitals*/
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(50, 5199908765, 'northbranch@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(51, 5199908744, 'southwest@greenviewmedical.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(52, 5199908722, 'central@greenviewmedical.com');
+
+/* Populating the table with contact information for pharmacies*/
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(53, 5192339670, 'info@chesterspharma.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(54, 5198912309, 'info@shoppersdrugmart.com');
+
+INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
+VALUES(54, 5198409944, 'info@pharmaplus.com');
 
