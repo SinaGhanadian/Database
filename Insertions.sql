@@ -265,3 +265,4 @@ VALUES(54, 5198912309, 'info@shoppersdrugmart.com');
 INSERT INTO CONTACT (CONTACT_ID, PHONE_NUMBER, EMAIL_ADDRESS)
 VALUES(54, 5198409944, 'info@pharmaplus.com');
 
+/* Populating the table with contact information for hospitals*/
