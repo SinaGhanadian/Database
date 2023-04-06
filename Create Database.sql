@@ -1,0 +1,3 @@
+--Creating the database
+
+CREATE DATABASE HOSPITAL_FINAL_PROJECT;
