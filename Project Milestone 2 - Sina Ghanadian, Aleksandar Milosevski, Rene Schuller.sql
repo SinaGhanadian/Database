@@ -6,11 +6,11 @@ Submitted on: 2023-03-13
 
 --Database Definition
 
-CREATE DATABASE HOSPITAL_FINAL;
+CREATE DATABASE HOSPITAL_TEST2;
 
 --Using Hospital_Project Database
 
-USE HOSPITAL_FINAL;
+USE HOSPITAL_TEST2;
 
 --Creating Tables
 
